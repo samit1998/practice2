@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = ()=>{
+    return(
+        <div>
+        <h1>React Practice</h1>
+        <p>How to push in github.</p>
+        <p><ul>
+            <li>Create a new branch and name it as your username. For example, if my GitHub user is 'sudhanshutiwari</li>
+            Commannds
+            <li>git add .  //add all files into staging area.</li>
+            <li>git commit -m 'message'   //commit the staged changes with a message.</li>
+            <li>git status    //check current state of repo, untracked file etc..</li>
+            <li>git remote show origin     //show details about your remote repository.</li>
+            <li>git pull --rebase upstream master      //pull latest code and rebase it on top of local branch.</li>
+            <li>git checkout -b new-branch        //create a new branch called new-branch based off of master (or whatever you want)</li>
+            </ul>
+            </p>
     </div>
-  );
+    )
 }
 
-export default App;
+
+export default App
