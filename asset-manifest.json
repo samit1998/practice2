@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/practice2/static/css/main.31d6cfe0.css",
+    "main.js": "/practice2/static/js/main.4b205f99.js",
+    "index.html": "/practice2/index.html",
+    "main.4b205f99.js.map": "/practice2/static/js/main.4b205f99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.4b205f99.js"
+  ]
+}
